@@ -1,0 +1,25 @@
+{
+  "name": "aws-sso-login",
+  "version": "0.1.1",
+  "description": "Easy AWS SSO login",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "metzapp",
+  "license": "ISC",
+  "bin": {
+    "awsl": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.8"
+  }
+}
